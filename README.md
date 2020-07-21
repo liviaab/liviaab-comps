@@ -1,11 +1,11 @@
-# liviaab-comps
+# simple-comps
 Uma biblioteca de componentes react criada com `create-react-app` e com componentes baseados no `Material UI Library`.
 
 Apenas um teste para aprender como funciona a criação e distribuição de pacotes :)
 
 ## Instalação
 Dentro do projeto que vai ser utilizado:
-`npm install liviaab-comps`
+`npm install simple-comps`
 
 ## Processo de criação
 
