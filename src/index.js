@@ -1,5 +1,5 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import { MyButton } from "./lib"
+import { MyAvatar, MyButton } from "./lib"
 
-ReactDOM.render(<MyButton color="secondary"/>, document.getElementById("root"));
+ReactDOM.render(<div><MyAvatar /><MyButton /></div>, document.getElementById("root"));

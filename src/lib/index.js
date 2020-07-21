@@ -1,3 +1,4 @@
-import MyButton from './MyButton'
+import MyAvatar from './atoms/MyAvatar/MyAvatar'
+import MyButton from './atoms/MyButton/MyButton'
 
-export { MyButton };
+export { MyAvatar, MyButton }

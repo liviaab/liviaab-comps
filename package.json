@@ -1,6 +1,6 @@
 {
-  "name": "liviaab-comps",
-  "version": "0.1.7",
+  "name": "simple-comps",
+  "version": "0.1.8",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "files": [
@@ -51,6 +51,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/liviaab/liviaab-comps.git"
+    "url": "git+https://github.com/liviaab/simple-comps.git"
   }
 }
