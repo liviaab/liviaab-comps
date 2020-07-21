@@ -1,3 +1,3 @@
-import MyButton from './atoms/MyButton'
+import MyButton from './MyButton'
 
 export { MyButton };
