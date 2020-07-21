@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = void 0;
+exports.default = MyButton;
 
 var _react = _interopRequireDefault(require("react"));
 
@@ -11,7 +11,7 @@ var _Button = _interopRequireDefault(require("@material-ui/core/Button"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var MyButton = function MyButton(_ref) {
+function MyButton(_ref) {
   var color = _ref.color,
       onClick = _ref.onClick;
 
@@ -21,8 +21,5 @@ var MyButton = function MyButton(_ref) {
     variant: "contained",
     color: _color,
     onClick: onClick
-  }, "Hello Livia");
-};
-
-var _default = MyButton;
-exports.default = _default;
+  }, "Click me!");
+}
