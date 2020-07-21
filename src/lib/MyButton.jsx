@@ -5,7 +5,7 @@ const MyButton = ({ color }) =>  {
   const _color = color ? color : "primary"
 
   return (
-    <Button variant="contained" color={`${_color}`}>
+    <Button variant="contained" color={_color} >
       Hello Livia
     </Button>
   )

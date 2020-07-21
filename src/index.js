@@ -2,4 +2,4 @@ import React from "react"
 import ReactDOM from "react-dom"
 import { MyButton } from "./lib"
 
-ReactDOM.render(<MyButton/>, document.getElementById("root"));
+ReactDOM.render(<MyButton color="secondary"/>, document.getElementById("root"));
