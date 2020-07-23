@@ -10,7 +10,7 @@ export default function PrimaryButton({ onClick, children }) {
         variant="outlined"
         onClick={onClick}
       >
-        { children|| "Click Me!" }
+        { children || "Click Me!" }
       </Button>
     </MyTheme>
   )

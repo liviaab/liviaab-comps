@@ -9,7 +9,7 @@ export default function QuietButton({ onClick, children }) {
         color="primary"
         onClick={onClick}
       >
-        { children|| "Click Me!" }
+        { children || "Click Me!" }
       </Button>
     </MyTheme>
   )

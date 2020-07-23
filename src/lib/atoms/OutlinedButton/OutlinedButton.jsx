@@ -10,7 +10,7 @@ export default function OutlinedButton({ onClick, children }) {
         variant="contained"
         onClick={onClick}
       >
-        { children|| "Click Me!" }
+        { children || "Click Me!" }
       </Button>
     </MyTheme>
   )
