@@ -1,12 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Button from '@material-ui/core/Button'
-import { MyTheme } from '../../common'
+import { MyTheme } from '../lib/common'
 
 /**
- * This is a simple `Button` in a jsx File.
+ * General component description in JSDoc format. Markdown is *supported*.
+ * This is a simple `Button`.
  */
-export default function BaseButton({ color, variant, onClick, children }) {
+export default function SGButton({ color, variant, onClick, children }) {
   return (
     <MyTheme>
       <Button
@@ -20,13 +21,13 @@ export default function BaseButton({ color, variant, onClick, children }) {
   )
 }
 
-BaseButton.propTypes = {
+SGButton.propTypes = {
+  /**  Button text */
+  children: PropTypes.string.isRequired,
+  /**  Main color */
   color: PropTypes.oneOf(['primary', 'secondary']).isRequired,
+  /** Button type - Check Material UI docs */
   variant: PropTypes.oneOf(['contained', 'outlined']),
+  /** Function to be executed when button is clicked */
   onClick: PropTypes.func.isRequired,
-  children: PropTypes.string.isRequired
-}
-
-BaseButton.defaultProps = {
-  variant: "contained"
 }
